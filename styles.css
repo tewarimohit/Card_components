@@ -1,0 +1,44 @@
+*,*::before, *::after{
+
+    font-family: 'Times New Roman', Times, serif;
+  --text-color: #008000;
+}
+
+
+.card{
+background: white;
+padding: 1rem;
+border:1px solid #777;
+
+
+}
+.card-header{
+font-size: 1.5rem;
+margin-bottom: .5rem;
+
+}
+
+.card-footer{
+
+    margin-top: 1rem;
+}
+
+.read-btn{
+color: var(--text-color);
+font-size: 1rem;
+font-weight: 800;
+background: white;
+border: none;
+padding: .5em;
+margin-right: .5rem;
+}
+.read-btn:hover{
+    color: var(--text-color);
+    font-weight: 800;
+    background: #90ee90;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+    
+    }
